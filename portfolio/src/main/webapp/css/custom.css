@@ -102,13 +102,3 @@
 	cursor: default;
 	margin-bottom: 10pt
 }
-.detailinfo>h2:hover{
-	font-size: 20pt !important;
-	cursor: default;
-	margin-bottom: 10pt
-}
-
-.detailinfo>p:hover{
-	font-size: 18pt !important;
-	cursor: default;
-}
