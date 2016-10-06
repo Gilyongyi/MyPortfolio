@@ -48,11 +48,12 @@ h1 {
 .slider-wrapper {
 	z-index: 500;
 	position: relative;
-	width: 100%;
+	width: 70%;
 	height: 700px;
 	background: #FFF;
 	border: 5px solid #4b5973;
 	overflow: hidden;
+	margin:auto;
 	margin-top: 4%;
 }
 
@@ -184,16 +185,47 @@ h1 {
 /** ---------------------------------------
  * Responsive 
  ----------------------------------------*/
- @media only screen and (max-width: 825px) {
+  @media only screen and (max-width: 1450px) {
  	.container {
  		width: 500px;
  	}
 
  	.slider-wrapper {
- 		height: 260px;
+ 		height: 630px;
  	}
  }
 
+  @media only screen and (max-width: 1200px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+
+ 	.slider-wrapper {
+ 		height: 550px;
+ 	}
+ }
+
+  @media only screen and (max-width: 1000px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+
+ 	.slider-wrapper {
+ 		height: 450px;
+ 	}
+ }
+ 
+ @media only screen and (max-width: 750px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+
+ 	.slider-wrapper {
+ 		height: 320px;
+ 	}
+ }
+
+ 
  @media only screen and (max-width: 535px) {
  	.container {
  		padding: 5px;
