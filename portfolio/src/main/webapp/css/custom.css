@@ -41,12 +41,17 @@
 	margin: 0;
 	font-weight: bold;
 }
+.content-subtitle{
+	margin-top:5%;
+	font-size: 14pt;
+}
 
 .moreView{
 	font-size: 1.5rem;
 	width:15%;
 	margin-left:auto;
 	margin-right:auto;
+	padding:2%;
 	color: white;
 	border: 1px solid white;
 }
@@ -77,6 +82,7 @@
 	left:10%;
 	font-size: 1.5rem;
 	cursor: default;
+	z-index: 1;
 }
 
 .authorscus{

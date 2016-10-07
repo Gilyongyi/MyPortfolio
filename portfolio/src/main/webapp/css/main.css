@@ -48,7 +48,6 @@ html, body {
 .background:nth-child(4) {
   background-color: #4b5973;
 }
-
 /* Set stacking context of slides */
 .background:nth-child(1) {
   z-index: 4;
@@ -93,6 +92,7 @@ html, body {
 .content-title {
   font-size: 12vh;
   line-height: 1.4;
+  margin-top: 12%;
 }
 
 .background.up-scroll {
