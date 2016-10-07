@@ -5,7 +5,8 @@
 
 .infowrapper{
 	margin:auto;
-	width: 60%;
+	margin-top: 5%;
+	width: 75%;
 }
 
 .contectwrapper{
@@ -14,21 +15,25 @@
 }
 
 .myimg{
-	width:30%;
-	float: right;
 }
 
 #myimgView{
-	margin-top:35%;
-	width:55%;
+	width: 160px;
 }
 
 .myinfo{
-	margin-top:10%;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.myinfo1{
+	/* margin-top:10%; */
 	width:70%;
-	float: left;
+	float: right;
 	text-align: left;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 .etc{
@@ -93,10 +98,10 @@
 }
 
 .detailinfo{
-	margin-top:20%;
+	/* margin-top:20%; */
 	width:60%;
 	text-align: left;
-	margin:auto;
+	margin-left:20%;
 	cursor: default;
 }
 .detailinfo>p{
@@ -151,5 +156,9 @@ display:none;
 @-webkit-keyframes aitf {
 	0% { background-position: 0% 50%; }
 	100% { background-position: 100% 50%; }
+}
+
+.point{
+	color:#ffd5d5;
 }
 
