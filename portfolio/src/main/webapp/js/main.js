@@ -63,3 +63,21 @@ function previousItem() {
   var $currentSlide = $(".background").eq(currentSlideNumber);
   $currentSlide.removeClass("down-scroll").addClass("up-scroll");
 }
+
+$('.downbtn').on("click",function(){
+	      ticking = true;
+	      if (currentSlideNumber !== totalSlideNumber - 1) {
+	        currentSlideNumber++;
+	        nextItem();
+	      }
+	      slideDurationTimeout(slideDurationSetting);
+})
+
+$('.upbtn').on("click",function(){
+	      ticking = true;
+	      if (currentSlideNumber !== 0) {
+	        currentSlideNumber--;
+	      }
+	      previousItem();
+	      slideDurationTimeout(slideDurationSetting);
+})

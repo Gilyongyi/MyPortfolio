@@ -5,7 +5,7 @@
 
 .infowrapper{
 	margin:auto;
-	margin-top: 5%;
+	margin-top:150px;
 	width: 75%;
 }
 
@@ -162,3 +162,31 @@ display:none;
 	color:#ffd5d5;
 }
 
+.downbtn{
+	cursor:pointer;
+	color:white;
+	font-size:35px;
+	position: fixed;
+	top:50%;
+	left:90%;
+	text-align:center;
+	z-index: 10;	
+}
+
+.upbtn{
+	cursor:pointer;
+	color:white;
+	font-size:35px;
+	position: fixed;
+	top:40%;
+	left:90%;
+	text-align:center;
+	z-index: 10;	
+}
+.upbtn:hover{
+	color:#ffff4a;
+}
+
+.downbtn:hover{
+	color:#ffff4a;
+}
